@@ -1,0 +1,54 @@
+.header {
+  max-width: 880px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_info {
+  display: flex;
+  gap: 10px;
+}
+
+.header_info > button,
+.header_info > a {
+  background: transparent;
+  color: rgb(180, 180, 180);
+  text-decoration: none;
+  border: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.header_info > button:hover,
+.header_info > a:hover {
+  color: rgb(218, 218, 218);
+}
+
+.header__vector {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header__line {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .header {
+    margin: 0;
+  }
+}

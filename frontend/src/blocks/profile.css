@@ -1,0 +1,168 @@
+.profile {
+  max-width: 880px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile__image {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin-left: 0;
+  object-fit: cover;
+}
+
+.profile__image-container {
+  position: relative;
+}
+
+.profile__edit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.profile__image-container:hover .profile__edit {
+  opacity: 1;
+}
+
+.profile__image-container:hover .profile__image {
+  opacity: 0.4;
+}
+.profile__edit-avatar {
+  width: 20px;
+  height: 30px;
+}
+
+.profile__info {
+  margin-left: 20px;
+}
+
+.profile__title {
+  text-align: center;
+  margin-bottom: 8px;
+  padding: 0;
+  font-size: 39px;
+}
+
+.profile__subtitle {
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.profile__button-edit {
+  width: 25px;
+  height: 25px;
+  border-color: white;
+  background-color: black;
+  color: white;
+  margin-left: 20px;
+  margin-top: 35px;
+  cursor: pointer;
+}
+
+.profile__ico {
+  display: flex;
+  align-items: center;
+}
+
+.profile__button-edit:hover {
+  opacity: 50%;
+}
+
+.profile__button {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.profile__button-add {
+  width: 140px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
+.profile__button-add:hover {
+  opacity: 50%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .profile {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .profile__title {
+    font-size: 28px;
+  }
+  .profile__subtitle {
+    font-size: 12px;
+  }
+  .profile__button-edit {
+    width: 16px;
+    height: 16px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  .profile__ico {
+    width: 7px;
+    position: relative;
+    right: 3px;
+  }
+  .profile__button {
+    margin-bottom: 30px;
+  }
+  .profile__button-add {
+    width: 100px;
+    height: 35px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .profile {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile__image {
+    margin-left: 70px;
+  }
+  .profile__edit {
+    left: 48%;
+  }
+  .profile__title {
+    margin: auto;
+    font-size: 23px;
+  }
+  .profile__subtitle {
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+  }
+  .profile__button-edit {
+    position: relative;
+    left: auto;
+    bottom: 95px;
+    margin-left: auto;
+    width: 18px;
+    height: 18px;
+    border-color: gray;
+  }
+  .profile__ico {
+    width: 7px;
+    position: relative;
+    right: 3px;
+  }
+  .profile__button {
+    width: 100%;
+  }
+  .profile__button-add {
+    width: 100%;
+  }
+}
