@@ -51,4 +51,9 @@
   .header {
     margin: 0;
   }
+  .header_info {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+  }
 }
