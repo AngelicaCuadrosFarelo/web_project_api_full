@@ -1,5 +1,5 @@
 import iconList from "../../images/iconList.png";
-import unionx from "../../images/unionx.png";
+import unionx from "../../images/Unionx.png";
 import { useContext } from "react";
 import CurrentUserContext from "../../contexts/CurrentUserContext";
 
