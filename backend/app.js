@@ -20,6 +20,12 @@ app.use(cors());
 app.use(requestLogger);
 app.use(express.json());
 
+app.get("/crash-test", () => {
+  setTimeout(() => {
+    throw new Error("El servidor va a caer");
+  }, 0);
+});
+
 app.post("/signup", validateUserCreation, createUser);
 app.post("/signin", validateLogin, login);
 app.use(auth);
