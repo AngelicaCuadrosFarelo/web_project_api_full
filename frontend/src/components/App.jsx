@@ -7,7 +7,7 @@ import { Routes, Route } from "react-router";
 import Login from "./Login/Login.jsx";
 import Register from "./Register/Register.jsx";
 import ProtectedRoute from "./ProtectedRoute/ProtectedRoute.jsx";
-import InfoTooltip from "./infoTooltip/infoToolTip.jsx";
+import InfoTooltip from "./infoTooltip/InfoToolTip.jsx";
 import { getToken } from "../utils/auth.js";
 
 function App() {
