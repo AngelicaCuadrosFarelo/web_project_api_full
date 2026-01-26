@@ -9,7 +9,7 @@ import add from "../../images/add.svg";
 import Card from "./components/Card/Card";
 import CurrentUserContext from "../../contexts/CurrentUserContext";
 import Footer from "../Footer/Footer";
-import InfoTooltip from "../infoTooltip/infoToolTip";
+import InfoTooltip from "../infoTooltip/InfoToolTip.jsx";
 
 function Main({
   popup,
