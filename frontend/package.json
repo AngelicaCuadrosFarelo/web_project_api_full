@@ -7,7 +7,8 @@
     "dev": "vite --open",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && scp -r -i path/to/ssh/key ./build/* angelik797@aroundproject19.chickenkiller.com:/home/angelik797/web_project_api_full/frontend"
   },
   "dependencies": {
     "react": "^19.2.0",
