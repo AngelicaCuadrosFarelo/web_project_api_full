@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = "https://api.aroundproject19.mooo.com";
 const TOKEN_KEY = "jwt";
 
 export const setToken = (token) => localStorage.setItem(TOKEN_KEY, token);
