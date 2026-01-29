@@ -69,16 +69,16 @@
 
 ### Frontend
 
-- **Dominio principal:** https://aroundproject19.chickenkiller.com
-- **Dominio alternativo:** https://www.aroundproject19.chickenkiller.com
+- **Dominio principal:** https://www.aroundproject19.mooo.com
+- **Dominio alternativo:** https://aroundproject19.mooo.com
 
 ### Backend/API
 
-- **API:** https://api.aroundproject19.chickenkiller.com
+- **API:** https://api.aroundproject19.mooo.com
 
 ### IP del servidor
 
-- **IP pública:** 136.119.143.15
+- **IP pública:** 35.184.129.8
 
 1. Manejo centralizado de errores
 
